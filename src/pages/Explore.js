@@ -32,7 +32,10 @@ const Explore = () => {
       </h1>
       <Row>
         <Col lg="3" xs="12">
-          <div className="bg-bg p-5 rounded sticky-top" style={{ top: "6rem" }}>
+          <div
+            className="bg-bg p-5 rounded mb-3 sticky-top"
+            style={{ top: "6rem" }}
+          >
             <h3 className="mb-5">Category</h3>
             <Nav className="flex-column">
               {category.length > 0 ? (

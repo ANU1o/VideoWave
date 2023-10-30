@@ -37,7 +37,8 @@ const History = () => {
       </Button>
 
       <p className="text-secondary text-center d-block d-lg-none fst-italic">
-        Swipe to Left to see more <i className="fa-solid fa-angles-right"></i>
+        Swipe to Left to see more{" "}
+        <i className="fa-solid fa-angles-right fa-fade"></i>
       </p>
 
       <div className="overflow-scroll">
